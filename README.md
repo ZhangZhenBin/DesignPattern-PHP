@@ -30,9 +30,9 @@
 # 享元模式
 \structure\Flyweight
 # 外观模式
-\structure\Facade\Facade()
+\structure\Facade
 # 代理模式
-\structure\Proxy\ConcreteSubject()
+\structure\Proxy
 
 # 模版模式
 \behavior\Template
@@ -53,6 +53,6 @@
 # 责任链模式
 $\behavior\ChainOfResponsibility
 # 迭代器模式 
-\behavior\Iterator\ConcreteAggregate()
+\behavior\Iterator
 # 解析器模式 
 \behavior\Interpreter
