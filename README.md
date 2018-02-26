@@ -9,7 +9,7 @@
 # 简单工厂 
 \create\SimpleFactory
 # 工厂方法 
-\create\FactoryMethod\
+\create\FactoryMethod
 # 抽象工厂 
 \create\AbstractFactory
 # 单例模式 
