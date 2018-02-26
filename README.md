@@ -10,12 +10,12 @@ spl_autoload_register(function ($class) {
     require dirname(__FILE__).DIRECTORY_SEPARATOR.str_replace('\\',DIRECTORY_SEPARATOR,$class).'.php';
 });
 
-#  简单工厂
-$simpleFactory = new \create\SimpleFactory\Factory();
-($simpleFactory->createProduct(0))->send();
-($simpleFactory->createProduct(1))->send();
+# 简单工厂
+#$simpleFactory = new \create\SimpleFactory\Factory();
+#($simpleFactory->createProduct(0))->send();
+#($simpleFactory->createProduct(1))->send();
 
-#  工厂方法
+# 工厂方法
 $factoryProduct01 = (new \create\FactoryMethod\FactoryProduct01())->createProduct();
 $factoryProduct01->send();
 $factoryProduct02 = (new \create\FactoryMethod\FactoryProduct02())->createProduct();
